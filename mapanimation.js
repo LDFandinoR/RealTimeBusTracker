@@ -33,4 +33,4 @@ async function getBusLocations(){
 
 }
 
-run();
+//run();
