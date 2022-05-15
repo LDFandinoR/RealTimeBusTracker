@@ -2,7 +2,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibGF1ZmFuZGlub3IiLCJhIjoiY2wydm1uYnFhMGRhczNjc
 
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11',
+    style: 'mapbox://styles/mapbox/outdoors-v11',//'mapbox://styles/mapbox/streets-v11',
     center: [-71.104081, 42.365554],
     zoom: 14
 });
@@ -18,7 +18,8 @@ async function run(){
 	const locations = await getBusLocations();
 	console.log(new Date());
 	console.log(locations);
-    marker.setLngLat([locations[0].attributes.longitude, locations[0].attributes.latitude])
+  marker.setLngLat([locations[0].attributes.longitude, locations[0].attributes.latitude])
+  map.flyTo ({center: [locations[0].attributes.longitude, locations[0].attributes.latitude]});
 
     // timer
     setTimeout(run, 15000);
