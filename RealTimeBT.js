@@ -4,7 +4,7 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
     center: [-71.104081, 42.365554],
-    zoom: 10
+    zoom: 14
 });
 
 var marker = new mapboxgl.Marker()
@@ -18,11 +18,12 @@ async function run(){
 	const locations = await getBusLocations();
 	console.log(new Date());
 	console.log(locations);
+    marker.setLngLat([locations[0].attributes.longitude, locations[0].attributes.latitude])
 
     // timer
-    setTimeout(run, 30000);
-}
-accessToken_MBTA = '1e157437-6641-4e9b-b594-ac553e14a244';
+    setTimeout(run, 15000);
+} 
+
 // Request bus data from MBTA
 async function getBusLocations(){
     const url = 'https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip';
@@ -32,4 +33,4 @@ async function getBusLocations(){
 
 }
 
-//run();
+run();
