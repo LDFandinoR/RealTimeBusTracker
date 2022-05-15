@@ -11,7 +11,7 @@ is shown in the map
 Clone this project on your machine and drag and drop the HTML file into the browser. Click on the button 
 "Show bus stops between two places" to see the marker move from one place to the other. 
 
-# Roadmap of future improvements: What additional features or functionality would be helpful to a user? 
+# Roadmap of future improvements:
 
 For future improvementes you should considere adding options so that the user can select which route they want to see.
 
