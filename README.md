@@ -1,6 +1,6 @@
 # RealTimeBusTracker
 
-##✈️About:
+## ✈️About:
 
 This project is an animation that displays a city bus location in real-time. It brings current information about a 
 bus location by using asynchronous functions and fetch. form a json object the information of longitude and latitude 
