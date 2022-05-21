@@ -7,12 +7,18 @@ The current longitude and latitude are shown through a marker on the map. This p
 
 ## 🏁 How to Run: 
 
-Clone this project on your machine and drag and drop the HTML file into the browser. Click on the button 
+If you want to run this project locally, clone it on your machine. Then drag and drop the HTML file into the browser.
+otherwise click on the project demo.
+
+Click on the button 
 "Show bus stops between two places" to see the marker move from one place to the other. 
 
 ## 🚀 Improvements:
 
-For future improvementes you should considere adding options so that the user can select which route they want to see.
+For future improvementes these could be implemented:
+[] Add options so that the user can select which route to see.
+[] Add view options to allow the user to change from light to dark colors as preferred 
+[] Display a notification when the rout ends.  
 
 
 ## 🔑 License information: 
