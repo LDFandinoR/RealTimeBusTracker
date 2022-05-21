@@ -18,4 +18,4 @@ For future improvementes you should considere adding options so that the user ca
 
 ## 🔑 License information: 
 
-This Proyect has MIT license. For more information you can see the [LICENSE] (doc/CLICENSE.md) file 
+This Proyect has MIT license. For more information you can see the [LICENSE] (./LICENSE.md) file 
