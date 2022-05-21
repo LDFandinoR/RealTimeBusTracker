@@ -7,11 +7,10 @@ The current longitude and latitude are shown through a marker on the map. This p
 
 ## 🏁 How to Run: 
 
-If you want to run this project locally, clone it on your machine. Then drag and drop the HTML file into the browser.
-otherwise click on the project demo.
+1. If you want to run this project locally, clone it on your machine. Then drag and drop the HTML file into the browser.
+Otherwise click on the project demo to open the project on the borwser.
 
-Click on the button 
-"Show bus stops between two places" to see the marker move from one place to the other. 
+2. Click on the button "Show bus stops between two places" to see the marker move from one place to the other. 
 
 ## 🚀 Improvements:
 
