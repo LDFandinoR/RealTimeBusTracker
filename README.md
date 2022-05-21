@@ -16,9 +16,9 @@ Click on the button
 ## 🚀 Improvements:
 
 For future improvementes these could be implemented:
-[] Add options so that the user can select which route to see.
-[] Add view options to allow the user to change from light to dark colors as preferred 
-[] Display a notification when the rout ends.  
+- [ ] Add options so that the user can select which route to see.
+- [ ] Add view options to allow the user to change from light to dark colors as preferred 
+- [ ] Display a notification when the rout ends.  
 
 
 ## 🔑 License information: 
