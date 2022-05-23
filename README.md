@@ -13,6 +13,9 @@ Otherwise click on the project demo to open the project on the borwser.
 
 2. Click on the button "Show bus stops between two places" to see the marker move from one place to the other. 
 
+### Demo
+[Real Time Bus Tracker Demo](https://ldfandinor.github.io/RealTimeBusTracker/)
+
 ## 🚀 Improvements:
 
 For future improvementes these features could be implemented:
